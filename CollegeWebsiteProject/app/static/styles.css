@@ -1,0 +1,119 @@
+/* General Body Styling */
+Body {
+    Font-family: Arial, sans-serif;
+    Background-color: #f8f9fa; /* Light gray background */
+    Margin: 0;
+    Padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    Background-color: #343a40; /* Dark gray */
+    Color: white;
+    Height: 100vh;
+    Width: 250px;
+    Position: fixed;
+    Top: 0;
+    Left: 0;
+    Padding: 20px;
+    Overflow-y: auto;
+}
+
+.sidebar h4 {
+    Text-align: center;
+    Margin-bottom: 20px;
+    Font-size: 1.5em;
+    Color: #ffc107; /* Gold */
+}
+
+.sidebar a {
+    Display: block;
+    Color: white;
+    Padding: 10px;
+    Text-decoration: none;
+    Margin: 5px 0;
+    Border-radius: 5px;
+    Transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    Background-color: #495057; /* Slightly lighter gray */
+}
+
+/* Main Content Styling */
+.main-content {
+    Margin-left: 250px;
+    Padding: 20px;
+}
+
+.main-content h1 {
+    Font-size: 2.5em;
+    Color: #343a40; /* Dark gray */
+}
+
+.main-content p {
+    Font-size: 1.2em;
+    Color: #6c757d; /* Medium gray */
+}
+
+/* Committee Dropdown Styling */
+.list-group-item {
+    Background-color: #e9ecef; /* Light gray */
+    Border: 1px solid #dee2e6;
+    Cursor: pointer;
+    Transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    Background-color: #f1f3f5; /* Lighter gray */
+}
+
+.dropdown-item {
+    Background-color: #f8f9fa; /* Same as body */
+    Color: #212529; /* Black text */
+    Transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+    Background-color: #e9ecef; /* Slightly darker gray */
+}
+
+/* Login Form Styling */
+.login-container {
+    Background-color: white;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    Padding: 30px;
+    Border-radius: 10px;
+}
+
+.login-container h3 {
+    Margin-bottom: 20px;
+    Color: #495057;
+    Text-align: center;
+}
+
+/* Upload Form Styling */
+.upload-container {
+    Background-color: white;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    Padding: 30px;
+    Border-radius: 10px;
+}
+
+.upload-container h3 {
+    Margin-bottom: 20px;
+    Color: #495057;
+    Text-align: center;
+}
+
+/* Buttons */
+Button {
+    Border-radius: 5px;
+    Transition: background-color 0.3s;
+}
+
+Button:hover {
+    Background-color: #0056b3; /* Slightly darker blue */
+    Color: white;
+}
+

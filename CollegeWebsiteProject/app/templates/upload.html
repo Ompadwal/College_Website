@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Report</title>
+    <link href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css rel="stylesheet">
+    <style>
+        .upload-container {
+            Margin: 50px auto;
+            Max-width: 600px;
+            Padding: 20px;
+            Border: 1px solid #ccc;
+            Border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="upload-container">
+        <h3 class="text-center">Upload Report</h3>
+        <form>
+            <div class="form-group">
+                <label for="committee">Select Committee</label>
+                <select id="committee" class="form-control">
+                    <option>Admission Committee</option>
+                    <option>Canteen Committee</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="reportFile">Upload File</label>
+                <input type="file" id="reportFile" class="form-control-file">
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
+
